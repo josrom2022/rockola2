@@ -1,1 +1,1 @@
-web: bundle exec rails server -p $PORT
+web: java -jar -Dserver.port=$PORT target/LaRockola-0.0.1-SNAPSHOT.war
